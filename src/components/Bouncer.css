@@ -1,0 +1,31 @@
+.bouncer-main-container{
+    background-color: #FFFFFF;
+    margin-bottom: 3.7rem;
+}
+.bouncer-container{
+    /* border: 1px solid black; */
+    text-align: center;
+    margin: 0 auto;
+    width: 69rem;
+    text-transform: uppercase;
+
+}
+.bouncer{
+    margin-bottom: 5rem;
+    color: #FF4252;
+    font-size: 3.4rem;
+    letter-spacing: .2rem;
+}
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-container > li{
+    list-style: none;
+    font-size: 1.4rem;
+    align-items: center;
+    font-weight: 700;
+}
+.home{
+    color: #33A0FF;
+}
