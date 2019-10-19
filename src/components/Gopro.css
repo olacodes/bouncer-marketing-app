@@ -1,0 +1,17 @@
+.iphone-6{
+    /* background-color: yellow; */
+    width: 39rem;
+    height: 28rem;
+    display: flex;
+    justify-content: space-between;
+}
+.iphone6-image-container{
+    margin-top: 8rem;
+}
+.iphone__6__img{
+    max-width: 25rem;
+    border: 2px solid black;
+    /* margin-top: 5rem; */
+}
+
+
