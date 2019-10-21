@@ -1,17 +1,67 @@
-.iphone-6{
-    /* background-color: yellow; */
-    width: 39rem;
-    height: 28rem;
+.goPro-container{
+    /* background-color: #FF6875; */
+    width: 105rem;
+    /* height: 25rem; */
+    display: flex;
+    margin: 0 auto;
+    /* border: 2px solid green; */
+    transform: translateY(-4rem);
+} 
+.goPro{
+    /* border: 2px solid; */
+    width: 35rem;
+    height: 20rem;
     display: flex;
     justify-content: space-between;
-}
-.iphone6-image-container{
-    margin-top: 8rem;
-}
-.iphone__6__img{
-    max-width: 25rem;
-    border: 2px solid black;
-    /* margin-top: 5rem; */
+    padding: 3rem 0 0 2rem;
 }
 
+.goPro__header{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
 
+}
+.goPro__para{
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+}
+.goPro__price{
+    font-size: 2rem;
+}
+.goPro__image{
+    background-position: top;
+    background-size: cover;
+    height: 15rem;
+    width: 30rem;
+    /* border: 2px solid red; */
+    /* margin-top: 4.5rem; */
+}
+#iphone6{
+    background-color: #FF6875;
+    color: white;
+
+}
+#oculus{
+    display: flex;
+    flex-flow: row wrap;
+    padding: 0 0 0 2rem;  
+    background-color: white;  
+}
+#oculus > .goPro__image{
+    height: 15rem;
+    margin-top: 2rem;
+    background-position: center;
+    order: 0;
+}
+#oculus > .goPro-header-para{
+    order: 1;
+    display: flex;
+    
+}
+#oculus > .goPro-header-para > .goPro__header{
+    margin-right: 15rem;
+}
+#hero{
+    background-color:#C1C8CE ;
+}
